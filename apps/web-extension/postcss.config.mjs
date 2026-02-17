@@ -1,1 +1,5 @@
-export { default } from "@repo/tailwind-config/postcss.config"
+export default {
+  plugins: {
+    "@tailwindcss/postcss": {},
+  },
+};
